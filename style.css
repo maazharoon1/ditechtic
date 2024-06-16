@@ -1,0 +1,493 @@
+body * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu {
+    position: absolute;
+    right: 27px;
+    bottom: 3px;
+}
+
+.com {
+    width: 88%;
+    display: flex;
+    height: 90%;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.question {
+    width: 50%;
+    padding: 20px 14px 0px 40px;
+    font-size: 20px;
+}
+
+.who {
+    height: 60vh;
+
+    width: 98VW;
+    position: relative;
+}
+
+.whoImg img {
+    width: 105%;
+    height: 113%;
+}
+
+.main2 {
+    min-height: calc(100vh + 45vh);
+    max-width: 98.9vw;
+    box-shadow: inset #3876 -2px 0px 20px 3px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    position: relative;
+    top: 37px;
+}
+
+.main2 svg {
+    fill: black;
+    opacity: 0.4;
+}
+
+.what {
+    text-align: center;
+}
+
+.what h4 {
+    color: #FFA320;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28vw;
+    height: 40vh;
+    background-color: #000000;
+    /* box-shadow: inset #3876 -2px 0px 20px 3px; */
+    border-radius: 54px;
+    transition: box-shadow 0.7s ease 0s;
+}
+
+.box:hover,
+.cs:hover {
+   cursor: pointer;
+    box-shadow:inset #3876 -2px 0px 20px 3px;
+}
+
+.box img {
+    height: 36%;
+    width: 28%;
+}
+
+.text {
+    margin: 23px 0px 14px 0px;
+    font-size: 25px;
+}
+
+
+.btn {
+    width: 27%;
+    transition: width 1.3s ease-in 0s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-size: large;
+    width: 80%;
+    border-top: 2px solid #3876;
+    border-bottom: 2px solid #3875;
+
+}
+
+.under,
+.set {
+    margin: 40px;
+    display: flex;
+    gap: 66px;
+    margin: 70ps;
+    justify-content: center;
+    align-items: center;
+}
+
+.k {
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs {
+    font-size: large;
+    padding: 5px;
+    border: 2px solid rgba(29, 199, 255, 0.533);
+    border-radius: 20px;
+    width: 10%;
+    background-color: #3671;
+    cursor: pointer;
+}
+
+.creavity {
+    overflow: hidden;
+    height: 105vh;
+    position: relative;
+    top: 37px;
+    background-image: url("https://ditechtic.com/wp-content/uploads/2022/10/4249454-scaled.jpg");
+    background-position: 40px 671px;
+    /* opacity: 0.9; */
+    filter: opacity(0.9);
+
+}
+
+.creavity svg {
+    position: absolute;
+    top: 0;
+    opacity: 0.86;
+}
+
+.saman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 51px 0px 0px -12px;
+}
+
+.saman h4 {
+    font-size: smaller;
+    color: #FFA320;
+}
+
+.saman h2 {
+    margin-top: 1px;
+    color: white;
+    font-size: 29px;
+}
+
+.wBoxes {
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    gap: 25px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.wBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 40px;
+    height: 75%;
+    border-radius: 5px;
+
+    width: 27%;
+    background-color: rgba(255, 255, 255, 0.851);
+    position: relative;
+}
+
+
+
+.fullImage {
+    background-attachment: fixed;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-image: url(https://ditechtic.com/wp-content/uploads/2022/10/22033-scaled.jpg); */
+}
+
+.fullImage img {
+    opacity: 0.4;
+    width: 100%;
+    object-position: left;
+    object-fit: cover;
+    height: 100%;
+}
+
+
+
+svg {
+    border-radius: 16px;
+    opacity: 0.8;
+}
+
+.ft svg .person circle,
+.ft svg .person rect {
+    transition: fill 0.2s ease-in 0s;
+}
+
+.ft svg:hover .person circle,
+.ft svg:hover .person rect {
+    fill: rgb(210, 206, 206);
+
+}
+
+.pie path {
+    transition: fill 0.2s ease-in;
+    stroke: black;
+    stroke-width: 0.5;
+}
+
+.sc svg:hover .pie path {
+    fill: rgb(210, 206, 206);
+}
+
+.third svg .container rect {
+
+    /* stroke: white; */
+    stroke-width: 0.5;
+}
+
+.third svg:hover .container rect {
+    stroke: black;
+    fill: rgb(210, 206, 206);
+
+}
+
+.wBox svg {
+    margin: 30px 0px 40px 20px;
+}
+
+.wBox .boxTitle {
+    margin: 40px 0px 0px 19px;
+    font-weight: 558;
+    font-size: 22px;
+}
+
+.wBox .para {
+    font-size: large;
+    margin: 4px 5px 0px 5px;
+    padding: 5px 16px;
+}
+
+.wBox .margin {
+    margin: 73px 0px 0px 13px;
+}
+
+.manjan {
+    position: relative;
+    height: 72.3vh;
+    width: 98.7vw;
+    top: 35px;
+
+}
+
+.backgroundImage {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(https://ditechtic.com/wp-content/uploads/2022/10/2205_w026_n002_1983b_p1_1983-scaled.jpg);
+    filter: brightness(0.3);
+    background-position: top center;
+    position: absolute;
+}
+
+.manjan .manjanMain {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+
+}
+
+.seperate svg {
+    width: 100.76%;
+    height: 12vh;
+    position: absolute;
+    top: 0;
+    left: -9px;
+    opacity: 0.9
+}
+
+.manjan .index {
+    z-index: 1;
+    padding: 30px;
+    margin: 10px 50px;
+
+}
+
+.manjan .title {
+    font-size: 22px;
+
+}
+
+.manjan .paragraph {
+    font-size: 15px;
+    padding: 30px 0px;
+    width: 45%;
+    font-weight: 500;
+}
+
+.manjan .paragraph .customParagraph {
+    line-height: 26px;
+    letter-spacing: 1.5px;
+}
+
+.contactButton button {
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(50deg, #32D2BB 0%, #2084AA 100%);
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #fff0;
+}
+
+.contactButton button:hover {
+
+    background-image: linear-gradient(50deg, #2084AA 0%, #32D2BB 100%);
+}
+
+#seperate svg {
+    width: 100%;
+    position: relative;
+    top: 35px;
+    height: 50px;
+}
+
+.last {
+    display: flex;
+    width: 75%;
+    margin: 50px 30px;
+    padding: 40px;
+}
+
+.lastTalk * {
+    margin: 24px;
+    letter-spacing: 1.34px;
+
+}
+
+.lastTalk h6 {
+    color: #FFA320;
+}
+
+#lastSec {
+    margin: 0px 0px 0px 5px;
+    padding: 8px;
+    font-size: small;
+}
+
+.lastImage img {
+    height: 102%;
+}
+
+#consultancy {
+    height: 100vh;
+    width: 98.7vw;
+    background-color: #000000;
+    color: white;
+
+}
+
+.flex {
+    height: 80%;
+    padding: 44px 0px 0px 0px;
+    width: calc(100%-30px);
+    display: flex;
+}
+
+#email {
+    height: 63px;
+    fill: #56c5f7;
+}
+
+.consultant {
+    margin: 0px 0px 0px 20px;
+    width: 52%;
+}
+
+.consultant * {
+    padding: 21px 10px;
+}
+
+.form {
+    width: 53%;
+}
+
+form * {
+    width: 85%;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+    transition: all 0.5s ease 0s;
+    border: 1px solid #767676;
+}
+
+form .br {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+form *:hover {
+    border-color: #2084AA;
+
+}
+
+form input,form textarea{
+    color: gray;
+}
+form .contactButton {
+    border: none;
+    width: 134px;
+    margin: -1px 0px 0px 0px;
+}
+
+.ph {
+    margin: 22px 10px;
+}
+
+.cTitle {
+    font-size: 33px;
+}
+
+.cPara {
+    line-height: 23px;
+}
+
+.PnM {
+    display: flex;
+
+}
+
+.PnM img {
+    height: 86px;
+    position: relative;
+    bottom: 14px;
+    left: 11px;
+}
+
+.icon * {
+    padding: 1.5px;
+}
+
+.icon {
+    position: relative;
+    bottom: 67px;
+    left: 50px;
+}
+
+.facebook {
+    padding: 0px;
+    fill: white;
+    height: 30px;
+    border: 6px solid #487f97;
+    border-radius: 17px;
+}
